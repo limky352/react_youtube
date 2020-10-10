@@ -1,0 +1,30 @@
+.header {
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.logo {
+  color: red;
+  font-size: 24px;
+}
+.logo_name {
+  color: black;
+}
+
+.left {
+  display: flex;
+}
+.btn_hamburger {
+  margin-right: 16px;
+  font-size: 16px;
+}
+
+.center {
+  border: 1px solid blue;
+}
+.search_bar {
+  font-size: 16px;
+}
