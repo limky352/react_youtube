@@ -1,0 +1,19 @@
+:root {
+  --font-size-xlarge: 28px;
+  --font-size-large: 25px;
+  --font-size-medium: 20px;
+  --font-size-small: 16px;
+  --font-size-xsmall: 12px;
+
+  --space-xxxlarge: 40px;
+  --space-xxlarge2: 32px;
+  --space-xxlarge: 28px;
+  --space-xlarge: 25px;
+  --space-large: 20px;
+  --space-medium: 16px;
+}
+
+.navv {
+  border: 2px solid blue;
+  height: var(--space-xxxlarge);
+}
