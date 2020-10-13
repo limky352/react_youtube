@@ -1,0 +1,21 @@
+.login_container {
+  width: 100px;
+  height: 36px;
+  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  font-size: 15px;
+}
+
+.login_container:hover {
+  cursor: pointer;
+}
+.login_img {
+  /* width: 30px; */
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px solid blue;
+}

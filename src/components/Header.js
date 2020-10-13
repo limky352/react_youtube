@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
-import './Header.module.css';
+import './Header.css';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaYoutube } from "react-icons/fa";
 import { AiOutlineSearch } from "react-icons/ai";
 import { MdApps } from "react-icons/md";
 import { MdVideoCall } from "react-icons/md";
 import { BiDotsVerticalRounded } from "react-icons/bi";
+import Login_btn from './Login_btn'
 
 
 class Header extends Component {
   render() {
     return (
       <header className="header" >
+        {/* 왼쪽 */}
         <div className="left">
           <div className="btn_hamburger_container">
             <GiHamburgerMenu className="btn_hamburger btn" />
@@ -21,6 +23,7 @@ class Header extends Component {
             <span className="logo_name">YouTube</span>
           </div>
         </div>
+        {/* 중앙 */}
         <div className="center">
           <div className="search_container">
             <form className="form_search" action="">
@@ -31,12 +34,14 @@ class Header extends Component {
             </form>
           </div>
         </div>
+        {/* 오른쪽 */}
         <div className="right">
           <div className="right_btns">
             {/* <RiVideoAddFill className="right_btns"></RiVideoAddFill> */}
             <div className="right_btn_container btn"><MdVideoCall className="right_btns"></MdVideoCall></div>
             <div className="right_btn_container btn"><MdApps className="right_btns"></MdApps></div>
             <div className="right_btn_container btn"><BiDotsVerticalRounded className="right_btns"></BiDotsVerticalRounded></div>
+            <Login_btn></Login_btn>
           </div>
         </div>
       </header>

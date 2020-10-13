@@ -11,9 +11,61 @@
   --space-xlarge: 25px;
   --space-large: 20px;
   --space-medium: 16px;
+  --space-small: 12px;
 }
 
 .navv {
+  position: fixed;
   border: 2px solid blue;
+  width: 230px;
+  height: 100vh;
+  overflow: hidden;
+}
+.navv:hover {
+  overflow-y: scroll;
+}
+.navv::-webkit-scrollbar {
+  width: 6px;
+  background-color: cadetblue;
+}
+.navv::-webkit-scrollbar-thumb {
+  width: 6px;
+  background-color: skyblue;
+}
+.navv::-webkit-scrollbar-track {
+  width: 6px;
+  background-color: red;
+}
+.nav_section {
+  padding: var(--space-small) 0;
+  border-bottom: 1px solid skyblue;
+}
+
+.each_menu_container {
+  display: flex;
+  align-items: center;
   height: var(--space-xxxlarge);
+  padding: 0 var(--space-xlarge);
+}
+.each_menu_container:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+.each_menu_img {
+  font-size: var(--font-size-medium);
+  margin-right: var(--space-xlarge);
+}
+
+.each_menu_text {
+  font-size: var(--font-size-small);
+}
+.login_section {
+  padding: var(--space-medium) var(--space-xlarge);
+}
+.login_article {
+  width: 180px;
+  border: 1px sol blue;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
