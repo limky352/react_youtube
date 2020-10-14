@@ -6,12 +6,36 @@ import { MdSubscriptions } from "react-icons/md";
 import { AiFillFolderOpen } from "react-icons/ai";
 import { MdHistory } from "react-icons/md";
 import Login_btn from './Login_btn'
+import { BsListNested } from 'react-icons/bs';
+
+/* class Create_menu extends Component {
+  constructor(props){
+    super(props);
+    this.state={
+      icons:[
+        {id:1, icon:'IoMdHome', icon_name:'HI'},
+        {id:2, icon:'IoMdHome', icon_name:'HIHello'}
+      ]
+    }
+  }
+  render() {
+    var iicon = <div className="each_menu_container">
+    <{this.props.icon} key={this.props.icon.id} className="each_menu_img"></{this.props.icon}>
+    <span className="each_menu_text">{this.props.icon_name}</span>
+
+  </div>
+    return (
+    )
+  };
+}
+ */
 
 class Left_nav extends Component {
   render() {
     return (
       <nav className="navv">
         <div className="nav_section">
+          {/* <Create_menu icon="IoMdHome" icon_name="HI"></Create_menu> */}
           <div className="each_menu_container">
             <IoMdHome className="each_menu_img"></IoMdHome>
             <span className="each_menu_text">홈</span>
@@ -39,6 +63,7 @@ class Left_nav extends Component {
             <span className="each_menu_text">시청 기록</span>
 
           </div>
+
         </div>
         <div className="nav_section login_section">
           <div className="login_article">
