@@ -13,6 +13,10 @@ class Header extends Component {
   render() {
     return (
       <header className="header" >
+        <p>Default:</p>
+        <div class="w3-light-grey">
+          <div class="w3-container w3-green">50%</div>
+        </div>
         {/* 왼쪽 */}
         <div className="left">
           <div className="btn_hamburger_container">

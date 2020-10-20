@@ -13,6 +13,10 @@
   --space-medium: 16px;
 }
 
+.w3-green {
+  /* height: 24px; */
+  width: 50%;
+}
 .btn:hover {
   cursor: pointer;
 }
