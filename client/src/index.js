@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import HeaderT from './routeTest/HeaderT';
+import BigText from './routeTest/BigText';
+import About from './routeTest/About';
+import TestComponent from './components/TestComponent';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -46,6 +46,7 @@
   align-items: center;
   height: var(--space-xxxlarge);
   padding: 0 var(--space-xlarge);
+  /* text-decoration: none; */
 }
 .each_menu_container:hover {
   cursor: pointer;

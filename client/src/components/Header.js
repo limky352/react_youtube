@@ -7,25 +7,30 @@ import { MdApps } from "react-icons/md";
 import { MdVideoCall } from "react-icons/md";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 import Login_btn from './Login_btn'
+import { Link, Route, Switch } from "react-router-dom";
+// import Home from '../page/Home';
 
 
 class Header extends Component {
   render() {
+    console.log(';hihihi');
     return (
       <header className="header" >
-        <p>Default:</p>
+        {/* <p>Default:</p>
         <div class="w3-light-grey">
           <div class="w3-container w3-green">50%</div>
-        </div>
+        </div> */}
         {/* 왼쪽 */}
         <div className="left">
           <div className="btn_hamburger_container">
             <GiHamburgerMenu className="btn_hamburger btn" />
           </div>
-          <div className="logo btn">
-            <FaYoutube className="logo_img" />
-            <span className="logo_name">YouTube</span>
-          </div>
+          <Link to="/">
+            <div className="logo btn">
+              <FaYoutube className="logo_img" />
+              <span className="logo_name">YouTube</span>
+            </div>
+          </Link>
         </div>
         {/* 중앙 */}
         <div className="center">
@@ -48,6 +53,7 @@ class Header extends Component {
             <Login_btn></Login_btn>
           </div>
         </div>
+        <Route exact path="/" />
       </header>
     )
   }
