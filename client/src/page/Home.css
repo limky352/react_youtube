@@ -1,12 +1,25 @@
-Header {
-  border: 5px solid red;
-}
-
 .section {
   display: flex;
   flex-direction: row;
 }
 
-TestComponent {
-  border: 5px solid red;
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home .container {
+  display: flex;
+}
+
+.Home .leftNav {
+  position: sticky;
+  background-color: teal;
+}
+
+.Home .article {
+  background-color: cornflowerblue;
+  height: 100vh;
+  margin-left: 230px;
+  width: 87%;
 }

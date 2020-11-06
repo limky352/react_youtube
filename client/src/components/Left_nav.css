@@ -20,7 +20,9 @@
 }
 
 .navv {
-  position: sticky;
+  position: fixed;
+  top: 70px;
+  left: 0;
   /* padding: var(--font-size-large); */
   /* border: 2px solid blue; */
   width: 230px;

@@ -12,11 +12,13 @@ import NavRouter from './../route/NavRouter';
 const Home = () => {
   console.log('home');
   return (
-    <>
-      <Header></Header>
-      <div className="section">
-        <Left_nav></Left_nav>
-        <div>
+    <div className="Home">
+      <Header className="header"></Header>
+      <div className="container">
+        <div className="leftNav">
+          <Left_nav></Left_nav>
+        </div>
+        <div className="article">
           <Switch>
             <Route exact path="/feed/:name" component={NavRouter} />
             <Route path="/" component={Main} />
@@ -24,7 +26,7 @@ const Home = () => {
           </Switch>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
