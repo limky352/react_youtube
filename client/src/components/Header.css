@@ -13,10 +13,10 @@
   --space-medium: 16px;
 }
 
-.w3-green {
-  /* height: 24px; */
+/* .w3-green {
+  height: 24px;
   width: 50%;
-}
+} */
 .btn:hover {
   cursor: pointer;
 }
@@ -28,7 +28,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 var(--space-medium);
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .left {

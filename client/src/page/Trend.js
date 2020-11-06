@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './Trend.css'
 
 class Trend extends Component {
   render() {
-    console.log('hihihihi')
+    console.log('Trend')
     return (
-      `<div>ddddddddddddddddd</div>`
+      `<div>Trend</div>`
     )
   }
 }

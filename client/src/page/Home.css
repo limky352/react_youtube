@@ -1,0 +1,12 @@
+Header {
+  border: 5px solid red;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+TestComponent {
+  border: 5px solid red;
+}

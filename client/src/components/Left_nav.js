@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './Left_nav.css'
 import { IoMdHome } from "react-icons/io";
 import { FaFireAlt } from "react-icons/fa";
@@ -13,20 +13,20 @@ import Trend from '../page/Trend';
 // import Login_btn from '../components/Login_btn';
 
 
-class Left_nav extends Component {
+class Left_nav extends PureComponent {
   render() {
     return (
       <nav className="navv">
         <div className="nav_section">
           {/* <Create_menu icon="IoMdHome" icon_name="HI"></Create_menu> */}
-          <Link to="/">
+          <Link to="/" className="linkk" /* style={{ textDecoration: 'none' }} */>
             <div className="each_menu_container">
               <IoMdHome className="each_menu_img"></IoMdHome>
               <span className="each_menu_text">홈</span>
             </div>
           </Link>
 
-          <Link to="/feed/trend">
+          <Link to="/feed/trend" className="linkk">
             {/* <MenuItem component={Link} to={'/first'}>Team 1</MenuItem> */}
             <div className="each_menu_container">
               <FaFireAlt className="each_menu_img"></FaFireAlt>
@@ -34,7 +34,7 @@ class Left_nav extends Component {
             </div>
           </Link>
 
-          <Link to="/feed/subs">
+          <Link to="/feed/subs" className="linkk">
             <div className="each_menu_container">
               <MdSubscriptions className="each_menu_img"></MdSubscriptions>
               <span className="each_menu_text">구독</span>
@@ -44,14 +44,14 @@ class Left_nav extends Component {
 
 
         <div className="nav_section">
-          <Link to="/feed/locker">
+          <Link to="/feed/locker" className="linkk">
             <div className="each_menu_container">
               <AiFillFolderOpen className="each_menu_img"></AiFillFolderOpen>
               <span className="each_menu_text">보관함</span>
             </div>
           </Link>
 
-          <Link to="/feed/history">
+          <Link to="/feed/histor" className="linkk">
             <div className="each_menu_container">
               <MdHistory className="each_menu_img"></MdHistory>
               <span className="each_menu_text">시청 기록</span>
@@ -66,8 +66,8 @@ class Left_nav extends Component {
           </div>
           <Login_btn></Login_btn>
         </div>
-        <Route path="/trend/:trendQuery" component={Trend} />
-        <Route path="/subs/:subsQuery" component={Login_btn} />
+        {/* <Route path="/trend/:trendQuery" component={Trend} />
+        <Route path="/subs/:subsQuery" component={Login_btn} /> */}
       </nav>
     )
   }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './Header.css';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaYoutube } from "react-icons/fa";
@@ -11,9 +11,9 @@ import { Link, Route, Switch } from "react-router-dom";
 // import Home from '../page/Home';
 
 
-class Header extends Component {
+class Header extends PureComponent {
   render() {
-    console.log(';hihihi');
+    console.log('Header');
     return (
       <header className="header" >
         {/* <p>Default:</p>
@@ -25,7 +25,7 @@ class Header extends Component {
           <div className="btn_hamburger_container">
             <GiHamburgerMenu className="btn_hamburger btn" />
           </div>
-          <Link to="/">
+          <Link to="/" className="linkk">
             <div className="logo btn">
               <FaYoutube className="logo_img" />
               <span className="logo_name">YouTube</span>
@@ -53,7 +53,6 @@ class Header extends Component {
             <Login_btn></Login_btn>
           </div>
         </div>
-        <Route exact path="/" />
       </header>
     )
   }

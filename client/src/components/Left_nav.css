@@ -14,9 +14,15 @@
   --space-small: 12px;
 }
 
+.linkk {
+  text-decoration: none;
+  color: black;
+}
+
 .navv {
-  position: fixed;
-  border: 2px solid blue;
+  position: sticky;
+  /* padding: var(--font-size-large); */
+  /* border: 2px solid blue; */
   width: 230px;
   height: 100vh;
   overflow: hidden;
