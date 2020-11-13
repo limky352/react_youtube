@@ -1,0 +1,37 @@
+.search {
+  background-color: rgb(246, 250, 248);
+  padding: 0 4rem;
+  margin: 3rem 3rem;
+  /* margin: 0 4rem; */
+}
+
+/* 비디오들*/
+.search .videoCon {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.videoCon > .left {
+  width: 250px;
+  /* border: 1px solid blue; */
+  padding: 0;
+  margin-right: 1rem;
+}
+.videoCon > .right {
+  width: 500px;
+}
+.vTitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 1.2rem;
+}
+.vInfo {
+  margin-bottom: 0.7rem;
+}
+.vDescription {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

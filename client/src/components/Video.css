@@ -1,0 +1,30 @@
+.videoContainer {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+.video1 {
+  /* background-color: rgb(219, 197, 197); */
+  width: 100%;
+  border: 1px solid red;
+}
+.videoInfoContainer {
+  margin-top: 1rem;
+  display: flex;
+}
+.icon {
+  border-radius: 50%;
+}
+.videoInfoRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoInfoRightBottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.videoInfoRightBottomTop {
+  display: flex;
+}

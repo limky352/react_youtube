@@ -4,8 +4,9 @@ import Left_nav from '../components/Left_nav'
 
 import './Home.css';
 import { Link, Route, BrowserRouter, Switch } from 'react-router-dom';
-import Main from './../container/Main';
 import NavRouter from './../route/NavRouter';
+import Main from './Main';
+import Search from './Search';
 
 
 
@@ -20,8 +21,10 @@ const Home = () => {
         </div>
         <div className="article">
           <Switch>
+            <Route exact path="/result" component={Search} />
             <Route exact path="/feed/:name" component={NavRouter} />
             <Route path="/" component={Main} />
+
             {/* {this.props.children} */}
           </Switch>
         </div>

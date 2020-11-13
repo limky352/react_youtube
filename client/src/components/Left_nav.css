@@ -33,16 +33,14 @@
   overflow-y: scroll;
 }
 .navv::-webkit-scrollbar {
-  width: 6px;
-  background-color: cadetblue;
+  width: 7px;
+  /* background-color: blue; */
 }
 .navv::-webkit-scrollbar-thumb {
-  width: 6px;
-  background-color: skyblue;
+  background-color: rgb(166, 184, 180);
 }
 .navv::-webkit-scrollbar-track {
-  width: 6px;
-  background-color: red;
+  background-color: white;
 }
 .nav_section {
   padding: var(--space-small) 0;

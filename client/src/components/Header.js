@@ -35,8 +35,8 @@ class Header extends PureComponent {
         {/* 중앙 */}
         <div className="center">
           <div className="search_container">
-            <form className="form_search" action="">
-              <input className="search_bar" type="search" placeholder="검색" />
+            <form className="form_search" action="/result">
+              <input className="search_bar" name="search" type="search" placeholder="검색" />
               <button className="search_btn btn" type="submit">
                 <AiOutlineSearch className="search_img"></AiOutlineSearch>
               </button>

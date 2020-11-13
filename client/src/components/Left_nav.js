@@ -66,8 +66,88 @@ class Left_nav extends PureComponent {
           </div>
           <Login_btn></Login_btn>
         </div>
+
         {/* <Route path="/trend/:trendQuery" component={Trend} />
         <Route path="/subs/:subsQuery" component={Login_btn} /> */}
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+        <div className="nav_section login_section">
+          <div className="login_article">
+            로그인하면 동영상에 좋아요를 표시하고 댓글을 달거나 구독할 수 있습니다.
+          </div>
+          <Login_btn></Login_btn>
+        </div>
+
+
       </nav>
     )
   }

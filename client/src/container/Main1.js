@@ -5,7 +5,7 @@ import Gnb from "../components/Gnb";
 import Footer from "../components/Footer";
 import WebtoonList from "../components/WebtoonList";
 
-class Main extends Component {
+class Main1 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,4 +28,4 @@ class Main extends Component {
       </div>
     )
   }
-} export default Main;
+} export default Main1;

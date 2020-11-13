@@ -6,7 +6,6 @@ import Header from './components/Header'
 import Left_nav from './components/Left_nav'
 // import HeaderT from './routeTest/HeaderT'
 import { Link, Route, BrowserRouter, Switch } from 'react-router-dom';
-import Main from './container/Main';
 // import { Router } from 'express';
 import Subs from './page/Subs';
 import Trend from './page/Trend';
@@ -16,8 +15,8 @@ import Histor from './page/Histor';
 class App extends React.Component {
   state = {
     isLogin: false,
-
   }
+
   render() {
     return (
       <BrowserRouter>
